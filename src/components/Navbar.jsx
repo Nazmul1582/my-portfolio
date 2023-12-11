@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { navLinks } from "../index";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
+import { FiMenu } from "react-icons/fi";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
     const [light, setLight] = useState(false);
+    const [toggle, setToggle] = useState(false);
     useEffect(() => {
         const documentElement = document.documentElement;
         if(!light){
@@ -51,11 +54,15 @@ const Navbar = () => {
               </div>
               <div
                 className="md:hidden block text-xl dark:text-slate-100 cursor-pointer"
+                onClick={() => {setToggle(!toggle)}}
               >
+                <span>{toggle ? <AiOutlineClose /> : <FiMenu />}</span>
                 <div
-                  className={`absolute top-20 right-0 dark:bg-slate-800 bg-slate-200 border-t-[1px] dark:border-slate-900 border-slate-300 p-6 w-full`}
+                  className={`${
+                    toggle ? "block" : "hidden"
+                  } absolute top-20 right-0 dark:bg-slate-800 bg-slate-200 border-t-[1px] dark:border-slate-900 border-slate-300 p-6 w-full`}
                 >
-                  <ul className="list-none flex flex-col items-center fl">
+                  <ul className="list-none flex flex-col items-center">
                     {navLinks.map((item) => (
                       <li key={item.id}>
                         <a
