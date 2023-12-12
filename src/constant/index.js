@@ -9,6 +9,15 @@ import expressImg from "../assets/images/expressjs-icon.png";
 import mongoImg from "../assets/images/mongodb.svg";
 import gitImg from "../assets/images/git.png";
 
+// images of projects
+
+import p1 from "../assets/images/stay-finder.png";
+import p2 from "../assets/images/talent-pulse.png";
+import p3 from "../assets/images/brand-shop.png";
+import p4 from "../assets/images/my-chat-app.png";
+import p5 from "../assets/images/twitter-clone.png";
+import p6 from "../assets/images/my-food-website.png";
+
 export const navLinks = [
     {
       id: "home",
@@ -80,4 +89,37 @@ export const skills = [
   { id: 7, img: expressImg, name: "ExpressJS" },
   { id: 8, img: mongoImg, name: "MongoDB" },
   { id: 9, img: gitImg, name: "Git" },
+];
+
+export const works = [
+  {
+    img: p1,
+    link1: "https://github.com/stay-finder",
+    link2: "https://stay-finder-ed81c.web.app",
+  },
+  {
+    img: p2,
+    link1: "https://github.com/talent-pulse",
+    link2: "https://talent-pulse-2ba97.web.app",
+  },
+  {
+    img: p3,
+    link1: "https://github.com/brand-shop",
+    link2: "https://brand-shop-1ffd7.web.app",
+  },
+  {
+    img: p4,
+    link1: "https://github.com/Nazmul1582/react-chat-app",
+    link2: "https://chat-app-nazmul.netlify.app",
+  },
+  {
+    img: p5,
+    link1: "https://github.com/Nazmul1582/twitter-clone",
+    link2: "https://twitter-clone-nazmul.vercel.app",
+  },
+  {
+    img: p6,
+    link1: "https://github.com/Nazmul1582/food-website-with-react",
+    link2: "https://food-website-nazmul.netlify.app",
+  }
 ];
