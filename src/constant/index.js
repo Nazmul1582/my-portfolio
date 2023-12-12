@@ -94,17 +94,17 @@ export const skills = [
 export const works = [
   {
     img: p1,
-    link1: "https://github.com/stay-finder",
+    link1: "https://github.com/Nazmul1582/stay-finder",
     link2: "https://stay-finder-ed81c.web.app",
   },
   {
     img: p2,
-    link1: "https://github.com/talent-pulse",
+    link1: "https://github.com/Nazmul1582/talent-pulse",
     link2: "https://talent-pulse-2ba97.web.app",
   },
   {
     img: p3,
-    link1: "https://github.com/brand-shop",
+    link1: "https://github.com/Nazmul1582/brand-shop",
     link2: "https://brand-shop-1ffd7.web.app",
   },
   {

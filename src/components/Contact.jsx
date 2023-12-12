@@ -2,7 +2,7 @@ import contactImg from "../assets/images/contact-img.svg";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-28">
+    <section id="contact" className="py-28 scroll-m-28">
       <div className="container mx-auto">
         <h2 className="dark:text-white text-center text-4xl font-bold mb-10 underline decoration-amber-400 decoration-4 underline-offset-4">
           Get In Touch
