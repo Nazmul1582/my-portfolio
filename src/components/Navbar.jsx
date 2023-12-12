@@ -18,9 +18,9 @@ const Navbar = () => {
   });
   return (
     <header
-      className={`w-full dark:bg-slate-800/75 dark:text-slate-100 bg-slate-200/75 fixed top-0 z-10 backdrop-blur-xl`}
+      className="w-full dark:bg-slate-800/75 dark:text-slate-100 bg-slate-200/75 fixed top-0 z-10 backdrop-blur-xl"
     >
-      <nav className="w-full xl:max-w-screen-xl mx-auto p-8 sm:p-12 py-5">
+      <nav className="w-full container mx-auto px-8 sm:px-12 py-5">
         <div className="flex items-center justify-between">
           <div className="w-40">
             <a href="#home">
