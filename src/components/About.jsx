@@ -19,7 +19,7 @@ const About = () => {
           <div className="dark:text-slate-100">
             <h2 className="text-md font-bold">Hello!</h2>
             <p className="mt-2 text-justify">
-            I&apos;m Md. Nazmul Hasan, hailing from the vibrant landscape of Bangladesh. While my forte lies in front-end development, my aspiration is to become an exceptional MERN Stack Developer. Eager to learn and grow, I&apos;m on a journey to refine my skills and contribute meaningfully. My goal is to secure a position in a top-tier company, where I can bring my passion for front-end and desire to master the MERN stack to new heights. Beyond borders and boundaries, I am dedicated to pushing the boundaries of what&apos;s possible in web development.
+            I&apos;m Md. Nazmul Hasan, hailing from the vibrant landscape of Bangladesh. I&apos;m a Non-CSE student. But I&apos;ve finished my graduation in Economics subject in National University. While my forte lies in front-end development, my aspiration is to become an exceptional MERN Stack Developer. Eager to learn and grow, I&apos;m on a journey to refine my skills and contribute meaningfully. My goal is to secure a position in a top-tier company, where I can bring my passion for front-end and desire to master the MERN stack to new heights. Beyond borders and boundaries, I am dedicated to pushing the boundaries of what&apos;s possible in web development.
             </p>
             <button className="button my-6">
               <a href={resume} download="Resume of Md Nazmul Hasan">
