@@ -32,10 +32,7 @@ const Intro = () => {
             </span>
           </h2>
           <p className="my-5">
-            I am a passionate frontend developer. I am a Junior Frontend
-            Developer. I am working with React JS and Tailwind CSS. I also have
-            experience in developing static websites using HTML5, CSS3, and
-            JavaScript.
+          Passionate Junior MERN Stack Developer, React Aficionado, and Front-End Enthusiast. Crafting seamless digital experiences with creativity, precision, and a dash of innovation. Let&apos;s elevate your web projects together!
           </p>
           <button className="button">
             <a href="#contact">Hire Me</a>
