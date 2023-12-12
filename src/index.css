@@ -25,4 +25,7 @@
         rgba(0, 0, 0, 0.7)
       );
     }
+    .single-service {
+      @apply text-center border border-slate-400 rounded-xl p-4 shadow-2xl hover:shadow-amber-400 hover:bg-amber-400 duration-300 text-slate-400 hover:text-slate-900 hover:border-amber-400;
+    }
 }

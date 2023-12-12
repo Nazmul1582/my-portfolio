@@ -3,7 +3,7 @@ import resume from "../assets/MERN_Stack_Developer_Resume_of_Md_Nazmul_Hasan.pdf
 
 const About = () => {
   return (
-    <section id="about" className="container mx-auto py-24">
+    <section id="about" className="container mx-auto pt-28">
       <h2 className="heading">About Me</h2>
       <div className="flex items-center justify-center flex-col md:flex-row gap-10">
         <div className="flex-1">
