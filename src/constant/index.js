@@ -1,3 +1,14 @@
+// images of skills
+import reactImg from "../assets/images/react.png";  
+import tailwindImg from "../assets/images/tailwindcss.png";
+import htmlImg from "../assets/images/html.png";
+import cssImg from "../assets/images/css.png";
+import jsImg from "../assets/images/js.png";
+import nodeImg from "../assets/images/nodejs-icon.svg";
+import expressImg from "../assets/images/expressjs-icon.png";
+import mongoImg from "../assets/images/mongodb.svg";
+import gitImg from "../assets/images/git.png";
+
 export const navLinks = [
     {
       id: "home",
@@ -57,4 +68,16 @@ export const services = [
     title: "Responsive Web Design",
     description: "Creating websites that seamlessly adapt to various devices and screen sizes. Specializing in responsive web design for a consistent user experience."
   }
+];
+
+export const skills = [
+  { id: 1, img: reactImg, name: "React" },
+  { id: 2, img: tailwindImg, name: "TailwindCSS" },
+  { id: 3, img: htmlImg, name: "HTML" },
+  { id: 4, img: cssImg, name: "CSS" },
+  { id: 5, img: jsImg, name: "JavaScript" },
+  { id: 6, img: nodeImg, name: "NodeJS" },
+  { id: 7, img: expressImg, name: "ExpressJS" },
+  { id: 8, img: mongoImg, name: "MongoDB" },
+  { id: 9, img: gitImg, name: "Git" },
 ];

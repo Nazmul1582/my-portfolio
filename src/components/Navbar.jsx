@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { navLinks } from "../index";
+import { navLinks } from "../constant/index";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";

@@ -1,4 +1,4 @@
-import { services } from "../index";
+import { services } from "../constant";
 
 const Services = () => {
   return (
