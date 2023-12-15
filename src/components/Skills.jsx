@@ -2,7 +2,7 @@ import { skills } from "../constant";
 
 const Skills = () => {
   return (
-    <section id="skills" className="pt-24 scroll-m-28">
+    <section id="skills" className="pt-24 scroll-m-5">
       <div className="container mx-auto">
         <h2 className="heading">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-items-center gap-10 dark:text-slate-100">

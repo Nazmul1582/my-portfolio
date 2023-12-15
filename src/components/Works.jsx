@@ -3,12 +3,12 @@ import { works } from "../constant";
 
 const Works = () => {
   return (
-    <section id="works" className="pt-28 scroll-m-28">
+    <section id="works" className="pt-28 scroll-m-5">
       <div className="container mx-auto">
         <h2 className="heading underline-offset-[10px]">My Works</h2>
         <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {works.map((website) => (
-            <div key={website.alt} className="max-w-[485px] mx-auto relative">
+            <div key={website.img} className="max-w-[485px] mx-auto relative">
               <img
                 src={website.img}
                 alt="project image"

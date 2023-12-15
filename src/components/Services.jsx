@@ -2,7 +2,7 @@ import { services } from "../constant";
 
 const Services = () => {
   return (
-    <section id="services" className="dark:text-slate-100 pt-28 scroll-m-28">
+    <section id="services" className="dark:text-slate-100 pt-28 scroll-m-5">
       <div className="container mx-auto">
         <h2 className="heading">Services</h2>
 
