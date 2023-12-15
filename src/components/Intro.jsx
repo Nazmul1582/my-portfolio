@@ -4,7 +4,7 @@ import img from "../assets/images/nazmul-hasan-2.png";
 const Intro = () => {
   return (
     <div id="home" className="container mx-auto mt-20">
-      <div className="min-h-screen flex items-center justify-center flex-col md:flex-row gap-20 md:gap-2 pt-20 md:pt-0 scroll-m-5">
+      <div className="min-h-screen flex items-center justify-center flex-col md:flex-row gap-20 md:gap-2 py-20 md:pt-0 scroll-m-28">
         <div className="sm:flex-1  dark:text-white">
           <h3 className="text-xl font-semibold text-slate-500">
             Hi! I&apos;m Nazmul Hasan
