@@ -6,7 +6,7 @@ const Intro = () => {
     <div id="home" className="container mx-auto mt-20">
       <div className="min-h-screen flex items-center justify-center flex-col md:flex-row gap-20 md:gap-2 py-20 md:pt-0 scroll-m-28">
         <div className="sm:flex-1  dark:text-white">
-          <h3 className="text-xl font-semibold text-slate-500">
+          <h3 className="text-5xl font-bold text-black dark:text-gray-100">
             Hi! I&apos;m Nazmul Hasan
           </h3>
           <h2 className="text-xl font-bold mt-3">

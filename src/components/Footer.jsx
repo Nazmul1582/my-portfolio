@@ -3,6 +3,7 @@ import {
   FaGithub,
   FaEnvelope,
   FaFacebookMessenger,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -20,13 +21,18 @@ const Footer = () => {
             </div>
             <div className="flex gap-5 text-xl">
               <div className="footer-icon">
-                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/nazmulhasan1582">
-                  <FaFacebook />
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nazmul1582">
+                  <FaLinkedin />
                 </a>
               </div>
               <div className="footer-icon">
                 <a target="_blank" rel="noreferrer" href="https://github.com/nazmul1582">
                   <FaGithub />
+                </a>
+              </div>
+              <div className="footer-icon">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/nazmulhasan1582">
+                  <FaFacebook />
                 </a>
               </div>
               <div className="footer-icon">
